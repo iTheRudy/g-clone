@@ -9,7 +9,7 @@ import React ,{createContext, useContext, useState} from 'react'
 */ 
 
 const ResultContext = createContext();
-const basURL = 'https://google-search3.p.rapidapi.com/api/v1';
+
 const baseURL = 'https://seo-api.p.rapidapi.com/v1'
 
 export let getResults = ()=>{
